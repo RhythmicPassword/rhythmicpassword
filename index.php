@@ -430,8 +430,10 @@ for ($i=1; $i<=$numsounds; $i++) {
 }
 ?>
 <div class="hint">
-	<b>Hint:</b> Create a secure rhythm-based password by choosing an easy to spell word (to avoid typos). Then think of a tune or rhythm to go along with your keystrokes.<br/><br/>
+	<b>Hint:</b> Create a secure rhythm-based password by choosing an easy to spell word (to avoid typos). Then think of a tune or rhythm to go along with your keystrokes.<br/>
 </div>
+
+Rhythmic Password is open source. <a target="_blank" href="https://github.com/RhythmicPassword/rhythmicpassword">View it on GitHub</a>
 
 <?php
 if (!empty($keygroup)) {
