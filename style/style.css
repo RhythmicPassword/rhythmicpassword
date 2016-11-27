@@ -1,0 +1,408 @@
+h1 {
+	font-weight: normal;
+	font-size: 25px;
+	font-family: helvetica;
+	line-height: 35px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+	font-family: helvetica;
+	line-height: 35px;
+}
+
+#container {
+	width: 100%;
+}
+
+#pattern_history {
+	display: inline-block;
+}
+
+.input_box {
+	font-size: 16px;
+	font-family: arial;
+	border: 1px solid #aaa;
+	margin: 10px;
+	padding: 6px;
+	height: 20px;
+	font-weight: bold;
+}
+	
+.input_box:focus {
+	border: 1px solid #666;
+}
+	
+.signin_form {
+	width: 80px;
+	height: 43px;
+	background: url('/images/button_login.png') no-repeat;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+	
+.signin_form:hover {
+	color: #ddf;
+	cursor: pointer;
+}
+	
+#footer_container {
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #eee;
+}
+	
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+	
+#footer a {
+	font-size: 12px;
+}
+	
+#small_logo {
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 92px;
+	height: 92px;
+}
+	
+#login_container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+	
+#login_box {
+	width: 330px;
+	height: 240px;
+	position: absolute;
+	left: -165px;
+	top: -120px;
+	background: url('/images/form-login-background.png') no-repeat;
+	text-align: center;
+	font-weight: bold;
+}
+	
+#login_pad {
+	margin: 20px;
+}
+	
+#login_help {
+	position: relative;
+	top: 18px;
+	font-size: 12px;
+}
+	
+#login_help a {
+	font-size: 12px;
+}
+
+#homepage_box {
+	width: 683px;
+	height: 403px;
+	position: absolute;
+	left: -342px;
+	top: -202px;
+	background: url('/images/background-container.png') no-repeat;
+	text-align: center;
+	font-weight: bold;
+}
+
+#homepage_pad {
+	margin: 20px;
+}
+
+.small_text {
+	font-size: 13px;
+}
+
+#top_half {
+	position: absolute;
+	top: 0%;
+	bottom: 50%;
+	width: 100%;
+	background: url('/images/top_gradient.jpg') repeat-x;
+}
+
+#bottom_half {
+	position: absolute;
+	top: 50%;
+	bottom: 0%;
+	width: 100%;
+	background: url('/images/bottom_gradient.png') repeat-x;
+}
+
+.login_error {
+	font-size: 12px;
+	color: #f00;
+}
+
+.login_success {
+	font-size: 12px;
+	color: #0d0;
+}
+
+#homepage_logo {
+	position: absolute;
+	left: 0%;
+	margin: 18px;
+	margin-left: 22px;
+	height: 316px;
+	width: 316px;
+	background: url('/images/logo_large.png') no-repeat
+}
+
+#homepage_container {
+	position: absolute;
+	right: 0%;
+	margin: 18px;
+	margin-right: 22px;
+	margin-top: 25px;
+	height: 300px;
+	width: 310px;
+	text-align: left;
+	font-size: 13px;
+}
+
+#homepage_login {
+	position: absolute;
+	right: 0%;
+	font-weight: bold;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+.strong_text {
+	font-size: 14px;
+	display: inline;
+}
+
+.underline_text {
+	text-decoration: underline;
+	font-size: 12px;
+	margin: 8px;
+	margin-left: 0px;
+}
+
+.address_text {
+	position: absolute;
+	bottom: 0%;
+	width: 609px;
+	margin-bottom: 21px;
+	margin-left: 29px;
+	padding: 6px;
+	background-color: #ddd;
+}
+
+.js_link {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.scrape_frame {
+	width: 400px;
+	height: 85px;
+	border: 1px solid #999;
+	display: block;
+	margin: 10px;
+}
+
+#loadbar_1 {
+	display: inline-block;
+	height: 25px; 
+	border: 1px solid black; 
+	border-right: 0px;
+	background-color: #04d;
+	padding: 0px;
+	margin: 0px;
+	background-image: -moz-linear-gradient(
+		center bottom,
+		#128 0%,
+		#23a 10%,
+		#36d 50%,
+		#6599ff 100%
+	);
+}
+
+#loadbar_2 {
+	display: inline-block;
+	height: 25px;
+	border: 1px solid black;
+	border-left: 0px;
+	background-color: #ddd;
+	padding: 0px;
+	margin: 0px;
+	margin-left: -5px;
+}
+
+#loadbar_3 {
+	display: inline-block;
+	height: 25px;
+	line-height: 15px;
+	width: 80px;
+	border: 1px solid white;
+	padding: 5px;
+	margin: 0px;
+}
+
+.userstuff {
+	display: inline-block;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 2px 2px 2px #888;
+	-moz-box-shadow: 2px 2px 2px #888;
+	box-shadow:  2px 2px 2px #888;
+	margin: 20px;
+}
+.send_button {
+	display: inline-block;
+	margin: 0px;
+	padding: 6px;
+	padding-left: 22px;
+	padding-right: 22px;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 13px;
+	background-color: #6599ff;
+	background-image: -moz-linear-gradient(
+		center bottom,
+		#128 0%,
+		#23a 10%,
+		#36d 50%,
+		#6599ff 100%
+	);
+	border-radius: 13px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-box-shadow: 2px 2px 2px #888;
+	-moz-box-shadow: 2px 2px 2px #888;
+	border: 0px;
+	color: #fff;
+}
+.send_button:hover {
+	opacity: 0.8;
+}
+.conversation_holder {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	width: 450px;
+	border: 1px solid #eee;
+	padding: 5px;
+	box-shadow: 0px 3px 7px #999;
+	-moz-box-shadow: 0px 3px 7px #999;
+	-webkit-box-shadow: 0px 3px 7px #999;
+}
+.bitsym {
+	display: inline-block;
+	margin: 0px;
+	margin-right: 4px;
+	padding: 0px;
+	width: 15px;
+	height: 15px;
+	background-image: url('/images/btc15.png');
+	background-repeat: no-repeat;
+	margin-bottom: -2px;
+}
+.bitsym2 {
+	display: inline-block;
+	margin: 0px;
+	margin-right: 4px;
+	padding: 0px;
+	width: 15px;
+	height: 15px;
+	background-image: url('/images/bitcoin15.png');
+	background-repeat: no-repeat;
+	margin-bottom: -2px;
+}
+#recent_logins {
+	line-height: 16px;
+	width: 400px;
+	max-height: 500px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-size: 11px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+#outstanding_orders {
+	line-height: 18px;
+	width: 480px;
+	max-height: 500px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-size: 11px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.css_order_row {
+	display: table-row;
+	cursor: pointer;
+}
+.selected_order {
+	background-color: #eee;
+}
+.loginholder {
+	position: relative;
+	display: inline-block; 
+	border: 1px solid black;
+	margin-bottom: -1px;
+}
+.charbox {
+	font-size: 20px;
+	position: absolute; 
+	bottom: 0px;
+	text-align: center;
+}
+.logincheckholder {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 3;
+	padding: 5px;
+}
+.display_feedback {
+	display: block;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 8px;
+}
+.feedback_label {
+	font-size: 20px;
+}
+.inline_100 {
+	display: inline-block;
+	width: 100px;
+}
+.hint {
+	display: block;
+	min-width: 800px;
+	overflow: hidden;
+	padding-top: 10px;
+}
+.data_controls {
+	float: right;
+	display: inline-block;
+	padding-right: 12px;
+	padding: 5px;
+	border: 1px solid #888;
+	width: auto;
+	margin-top: 20px;
+}
